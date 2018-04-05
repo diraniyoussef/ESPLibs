@@ -7,6 +7,7 @@
  */
 ESP_PCF8574::ESP_PCF8574() {
 	m_address = 0;
+	m_currentOutput = 255;
 } // End of constructor
 
 /**
